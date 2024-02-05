@@ -3,6 +3,8 @@
   щоб гарантувати, що перший елемент завжди буде рядком, а другий числом?
 */
 
-let person = ['Max', 21];
+let person: [string, ...number[]];
+person = ["Max", 21];
+person = ["date", 5, 2, 2024];
 
 export {};
